@@ -1,0 +1,1719 @@
+
+/*============================= HEADER SECTION ================  */
+.navbar-collapse {
+    justify-content: flex-end !important;
+}
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* ===================== HOME SECTION =================== */
+.home-sect-container {
+     position: relative;
+}
+
+/* =========================== CARDS SECTION =============== */
+.card-main {
+    display: flex;
+    background-color: white;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: -70px;  
+    margin: 0 auto;
+}
+.box {
+    width: 822px;
+    height: 196px;
+}
+.cards {
+   display: flex;
+   width: 274px;
+   height: 196px;
+   align-items: center;
+   border: none;
+}
+.img-card{
+    width: 30%;
+    margin-left: 10px;
+}
+.shadow {
+    box-shadow:  inset 0 0 10px #000000;
+    border-radius: 8px;
+}
+.card-mid {
+    background-color: white;
+}
+.card-body {
+    text-align: center;
+}
+
+.btn-link {
+    text-decoration: none ;
+    font-size: 12px ;
+    text-decoration: none !important;
+}
+
+/* ==================== VIDEO SECTION ================ */
+.video-text-row {
+    padding: 200px 0px 50px 0px;
+}
+
+.vid-h1 {
+    font-size: 32px;
+    color: #e74c3c;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.vid-p4 {
+    font-size: 22px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    margin: 5px 0px 5px 0px;
+    margin-top: 0px;
+}
+.video {
+    width: 100%;
+    height: auto;
+}
+.video-main {
+    position: relative;
+    padding-bottom:30px 0px 30px 0px;
+}
+.rectangle {
+    width: 400px;
+    height: auto;
+}
+.video-div {
+    position: absolute;
+    left: 3%;
+    top:10%;
+}
+
+/* ======================= GET STARTED SECTION ============= */
+.get-started-main {
+    background-color:#e74c3c;
+    padding: 60px 0px 60px 0px;
+    margin-top: 309px;
+}
+
+.get-started-p {
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.get-started-btn
+{
+  display: block;
+  margin: 0px 0;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #00a8ff;
+  color: #e74c3c !important;
+  font-size: 24px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.btn1:hover {
+  transform: rotateX(15deg);
+  box-shadow: 0 15px 15px #212122;
+}
+
+/* =================== LOGOS SECTION ================= */
+.logos-para {
+    text-align: end;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sect-margin {
+    margin:20px 0px 20px 0px;
+    padding:20px 0px 20px 0px;
+}
+
+.sect-img1 {
+    height: 608px;
+    width: 608px;
+}
+.sect-img2 {
+    height: 250px;
+    width: 608px;
+}
+
+
+/* ========ACCORDION 1======= */
+.accordion-sect {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 85px 0px 85px 0px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.accordion-para {
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-left: 20px;
+    text-align: start;
+    margin-top: 13px;
+}
+
+.accordion-button {
+    display: none;
+}
+
+.accord-i {
+    color: black;
+    font-size: 50px;
+}
+
+.accordion1-button {
+    border: none !important;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid black;
+}
+.accordion-item {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none !important;
+    border-right: none !important;
+    
+}
+.accordion-body {
+    text-align: start !important;
+    margin-left: 60px;
+}
+
+.accord-span {
+    display: flex;
+}
+
+.accord-font {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+/* ==================== FITNESS FROM WITHIN SECTION =================== */
+
+.fitness-main {
+    background-color: #e74c3c;
+    padding: 50px 0px 50px 0px;
+}
+
+.fitness-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 0% !important;
+}
+
+.col-elemnt {
+    padding: 30px 0px 30px 0px;
+}
+.btn1:hover {
+    transform: rotateX(15deg);
+    box-shadow: 0 15px 15px #212122;
+  }
+
+.fitness-h2 {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+
+}
+
+.fitness-h6 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.h5-col {
+    font-size: 34px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.margin-top {
+    margin-top: 70px;
+}
+.margin-bottom {
+    margin-bottom: 70px;
+}
+.p-col {
+    text-align: start;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+/* ================== RULES SECTION ================= */
+.rule-sect2-bg {
+    background-color: black;
+}
+.rule-row {
+    padding: 60px 0px 60px 0px;
+}
+.col-margin {
+    margin-top: 50px;
+}
+
+.a-color {
+    text-decoration: none;
+    color: #e74c3c;
+}
+.eat-img {
+    height: 300px;
+    width: 100%;
+}
+.rule-h4 {
+font-size: 32px;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: bold;
+}
+.rule-para {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+/* ================ PRODUCTS SECTION ============= */
+.text-sect-bg {
+    background-color: #f5f5f5;
+}
+.text-main {
+    padding: 70px 0px 70px 0px;
+}
+.product-h4 {
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+
+.products-img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0%;
+}
+.row-product {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+.products-col {
+    padding: 0% !important;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.accord2-sect-bg {
+    background-color: #e74c3c;
+}
+.accordion2-para {
+    font-size: 18px;
+    margin-left: 30px;
+    color: white;
+    text-align: start;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.accordion2-body {
+    font-size: 14px;
+    margin-left: 60px;
+    color: white;
+    text-align: start;
+}
+/* .accord2-img {
+    margin-bottom: 16px !important;
+} */
+img {
+    margin-bottom: 16px;
+}
+.mid-accord-img {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+.accordion-row {
+    padding: 70px 0px 70px 0px;
+}
+.accordion-btn {
+    background-color: #e74c3c;
+    display: flex;
+    
+    border: none !important;
+}
+.item {
+    border: none !important;
+    
+}
+.accordion-header {
+    padding: 30px 0px 30px 0px;
+}
+
+
+
+/* ================= STEP PROCESS SECTION ============ */
+.step-main {
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+}
+.step-row {
+    padding: 100px 0px 60px 0px;
+}
+.step-span {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.span-img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+.step-h1 {
+    font-size: 65px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.step-h6 {
+    font-size: 32px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.step-para {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* ======================== GET SHAPE SECTION ================== */
+.get-shape-bg {
+    background-color: #e74c3c;
+}
+.get-shape-row {
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+}
+.shape-h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.shape-para {
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.shape-h6 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* ============= FOOTER SECTION ============ */
+.footer-div {
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+}
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer-li {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footer-para {
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ========== MEDIA QUERIES =========== */
+@media screen and (max-width:1200px) {
+    .video-text-row {
+        padding: 120px 56px 50px 0px;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 310px;
+        height: 250px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:14%;
+    }
+    .vid-h1 {
+        font-size: 34px;
+        color: #e74c3c;
+    }
+    .vid-p4 {
+        font-size: 24px;
+        color: black;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 60px 0px 60px 0px;
+        margin-top: 300px;
+    }
+    .get-started-p {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 40px 0;
+      width: 220px;
+      height: 60px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 32px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+
+    .accordion-para {
+        font-size: 24px;
+        color: black;
+        margin-left: 30px;
+        text-align: start;
+    }
+    .accord-i {
+        color: black;
+        font-size: 50px;
+    }
+    .accord-font {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .col-elemnt {
+        padding: 50px 0px 50px 0px;
+    }
+    .fitness-h2 {
+        margin-top: 60px;
+        margin-bottom: 90px;
+        color: white;
+        font-size: 80px;
+    }
+    .fitness-h6 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 46px;
+        color: white;
+    }
+    .h5-col {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .rule-h4 {
+    font-size: 30px;
+    }
+    .rule-para {
+        font-size: 20px;
+    }
+
+    .shape-h1 {
+        font-size: 80px;
+        font-weight: bold;
+        color: white;
+    }
+    .shape-para {
+        font-size: 24px;
+        color: white;
+    }
+    .shape-h6 {
+        font-size: 46px;
+        font-weight: bold;
+        margin-top: 80px;
+        color: white;
+    }
+
+    .step-h1 {
+        font-size: 80px;
+    }
+    .step-h6 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .step-para {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: -60px;  
+        margin: 0 auto;
+    }
+    .card {
+       display: flex;
+       height: 200px;
+       width: 303px;
+       flex-direction: inherit !important;
+       align-items: center;  
+       border: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .video-text-row {
+        padding: 120px 56px 50px 0px;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 40px 0px;
+    }
+    .rectangle {
+        width: 310px;
+        height: 250px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .vid-h1 {
+        font-size: 26px;
+        color: #e74c3c;
+    }
+    
+    .vid-p4 {
+        font-size: 20px;
+        color: black;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 60px 0px 60px 0px;
+        margin-top: 220px;
+    }
+    .get-started-p {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 40px 0;
+      width: 220px;
+      height: 70px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 32px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+
+    .col-elemnt {
+        padding: 50px 0px 50px 0px;
+    }
+    .fitness-h2 {
+        margin-top: 60px;
+        margin-bottom: 90px;
+        color: white;
+        font-size: 70px;
+    }
+    .fitness-h6 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 46px;
+        color: white;
+    }
+    .h5-col {
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    .rule-h4 {
+    font-size: 27px;
+    }
+    .rule-para {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .mid-accord-img {
+        height: auto;
+        width: 100%;
+        margin-top: 45px;
+    }
+
+    .shape-h1 {
+        font-size: 70px;
+        font-weight: bold;
+        color: white;
+    }
+    .shape-para {
+        font-size: 23px;
+        color: white;
+    }
+    .shape-h6 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 80px;
+        color: white;
+    }
+
+    .step-h1 {
+        font-size: 72px;
+    }
+    .step-h6 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .step-para {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: -60px;  
+        margin: 0 auto;
+    }
+    .box {
+        width: 690px;
+        height: 196px;
+    }
+    .cards {
+       display: flex;
+       width: 230px;
+       height: 196px;
+       align-items: center;
+       border: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .vid-h1 {
+        font-size: 24px;
+        color: #e74c3c;
+        padding-left: 40px;
+    }
+    .vid-p4 {
+        font-size: 20px;
+        color: black;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 310px;
+        height: 250px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-p {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 40px 0;
+      width: 210px;
+      height: 60px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 32px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+
+    .col-elemnt {
+        padding: 50px 0px 50px 0px;
+    }
+    .fitness-h2 {
+        margin-top: 60px;
+        margin-bottom: 90px;
+        color: white;
+        font-size: 70px;
+    }
+    .fitness-h6 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 36px;
+        color: white;
+    }
+    .h5-col {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .rule-h4 {
+    font-size: 27px;
+    }
+    .rule-para {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .shape-h1 {
+        font-size: 70px;
+        font-weight: bold;
+        color: white;
+    }
+    .shape-para {
+        font-size: 23px;
+        color: white;
+    }
+    .shape-h6 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 80px;
+        color: white;
+    }
+
+    .step-h1 {
+        font-size: 72px;
+    }
+    .step-h6 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .step-para {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: -60px;  
+        margin: 0 auto;
+    }
+    .box {
+        width: 690px;
+        height: 196px;
+    }
+    .cards {
+       display: flex;
+       width: 230px;
+       height: 196px;
+       align-items: center;
+       border: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .vid-h1 {
+        font-size: 18px;
+        color: #e74c3c;
+        padding-left: 20px;
+    }
+    .vid-p4 {
+        font-size: 18px;
+        color: black;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 250px;
+        height: 200px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 0px 0px 30px 0px;
+        margin-top: 156px;
+    }
+    .get-started-p {
+        font-size: 32px;
+        color: white;
+        text-align: center;
+        padding: 40px 0px 40px 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 10px 0;
+      width: 220px;
+      height: 60px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 32px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+    .sect-img1 {
+        height: auto;
+        width: 100%;
+    }
+    .sect-img2 {
+        height: auto;
+        width: 100%;
+    }
+
+    .accordion-sect {
+        margin: 5px 25px 5px 25px;
+    }
+    .accordion-para {
+        font-size: 26px;
+        color: black;
+        margin-left: 30px;
+        text-align: start;
+    }
+    
+    .accord-font {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .col-elemnt {
+        padding: 45px 0px 45px 0px;
+    }
+    .fitness-h2 {
+        margin-top: 60px;
+        margin-bottom: 90px;
+        color: white;
+        font-size: 46px;
+    }
+    .fitness-h6 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 36px;
+        color: white;
+    }
+    .h5-col {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .rule-h4 {
+        font-size: 28px;
+    }
+    .rule-para {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .accordion2-para {
+        font-size: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: white;
+        text-align: start;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .accordion-header {
+        padding: 15px 0px 15px 0px;
+    }
+    .mid-accord-img {
+        height: auto;
+        width: 100%;
+        margin-top: 16px;
+    }
+    .accordion2-body {
+        font-size: 6px;
+        margin-left: 50px;
+        color: white;
+        text-align: start;
+    }
+    .shape-h1 {
+        font-size: 55px;
+        font-weight: bold;
+        color: white;
+    }
+    .shape-para {
+        font-size: 20px;
+        color: white;
+    }
+    .shape-h6 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 80px;
+        color: white;
+    }
+
+    .step-h1 {
+        font-size: 52px;
+    }
+    .step-h6 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .step-para {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: -60px;  
+        margin: 0 auto;
+    }
+    .box {
+        width: 570px;
+        height: 196px;
+    }
+    .cards {
+       display: flex;
+       width: 190px;
+       height: 196px;
+       align-items: center;
+       border: none;
+    }
+    .card-text {
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    .btn-link {
+        font-size: 12px !important;
+       
+    }
+}
+@media screen and (max-width:660px) {
+    .video-text-row {
+        padding: 75px 0px 30px 0px;
+        text-align: center;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: -30px;  
+        margin: 0 auto;
+    }
+    .box {
+        width: 390px;
+        height: 100px;
+    }
+    .cards {
+       display: flex;
+       width: 130px;
+       height: 130px;
+       align-items: center;
+       border: none;
+    }
+    .card-body {
+        padding: 0px !important;
+    }
+    .card-text {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 210px;
+        height: 160px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 0px 0px 30px 0px;
+        margin-top: 106px;
+    }
+    .get-started-p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 10px 0;
+      width:150px;
+      height: 40px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 20px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+}
+@media screen and (max-width:540px) {
+    .video-text-row {
+        padding: 75px 0px 30px 0px;
+        text-align: center;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: -30px;  
+        margin: 0 auto;
+    }
+    .box {
+        width: 390px;
+        height: 100px;
+    }
+    .cards {
+       display: flex;
+       width: 130px;
+       height: 130px;
+       align-items: center;
+       border: none;
+    }
+    .card-body {
+        padding: 0px !important;
+    }
+    .card-text {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 210px;
+        height: 160px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 0px 0px 30px 0px;
+        margin-top: 106px;
+    }
+    .get-started-p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 10px 0;
+      width:150px;
+      height: 40px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 20px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+}
+@media screen and (max-width:480px) {
+    .video-text-row {
+        padding: 75px 0px 50px 0px;
+        text-align: center;
+    }
+    .vid-h1 {
+        font-size: 18px;
+        color: #e74c3c;
+        padding-left: 20px;
+    }
+    .vid-p4 {
+        font-size: 18px;
+        color: black;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 180px;
+        height: 130px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 0px 0px 30px 0px;
+        margin-top: 80px;
+    }
+    .get-started-p {
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        padding: 0px;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 60px 0px 60px 0px;
+        margin-top: 158px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 10px 0;
+      width: 200px;
+      height: 50px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 24px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+    .logos-para {
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .accordion-sect {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .accordion-para {
+        font-size: 17px;
+        color: black;
+        margin-left: 30px;
+        text-align: start;
+    }
+    .accord-font {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .col-elemnt {
+        padding: 35px 0px 35px 0px;
+    }
+    .fitness-h2 {
+        margin-top: 34px;
+        margin-bottom: 52px;
+        color: white;
+        font-size: 46px;
+    }
+    .fitness-h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .text-main {
+        padding: 30px 0px 30px 0px;
+    }
+    .sect-img1 {
+        height: auto;
+        width: 100%;
+    }
+    .sect-img2 {
+        height: auto;
+        width: 100%;
+    }
+    .h5-col {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .rule-h4 {
+       font-size: 30px;
+    }
+    .rule-para {
+        font-size: 20px;
+    }
+    .accordion2-para {
+        font-size: 19px;
+        margin-left: 30px;
+        margin-right: 10px;
+        color: white;
+        text-align: start;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .product-h4 {
+        font-size: 46px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .step-row {
+        padding: 25px 0px 0px 0px;
+    }
+    .step-h1 {
+        font-size: 38px;
+    }
+    .shape-h6 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: white;
+    }
+    .step-para {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .get-shape-row {
+        padding: 38px 0px 38px 0px;
+        text-align: center;
+    }
+    .shape-h1 {
+        font-size: 45px;
+        font-weight: bold;
+        color: white;
+    }
+    .shape-para {
+        font-size: 16px;
+        color: white;
+    }
+    .shape-h6 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 80px;
+        color: white;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        position: absolute;
+        left: 0; 
+        right: 0;
+        bottom: -60px;  
+        margin: 0 auto;
+    }
+    .box {
+        width: 360px;
+        height: 150px;
+    }
+    .cards {
+       display: flex;
+       width: 120px;
+       height: 150px;
+       align-items: center;
+       border: none;
+    }
+    .card-body {
+        padding: 0px;
+    }
+    .card-text {
+        font-size: 10px;
+        
+        margin-bottom: 10px;
+    }
+    .btn-link {
+        font-size: 10px !important;
+        padding: 0px !important;
+        margin-bottom: 30px;
+       
+    }
+}
+@media screen and (max-width:425px) {
+    .card-main {
+        display: flex;
+        background-color: white;
+        align-items: center;
+        width: unset ;
+        padding-left: 0% ;
+        padding-right: 0% ;
+        position: absolute;
+        top: 76%;
+        left: 14%; 
+        right: 14%;
+        bottom: 0%;  
+    }
+    .box {
+        width: 300px;
+        height: 100px;
+    }
+    .cards {
+       display: flex;
+       width: 100px;
+       height: 100px;
+       align-items: center;
+       border: none;
+    }
+    .card-body {
+        padding: 0px !important;
+    }
+    .card-text {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 160px;
+        height: 110px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 0px 0px 30px 0px;
+        margin-top: 85px;
+    }
+    .get-started-p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 10px 0;
+      width:150px;
+      height: 40px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 20px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+}
+@media screen and (max-width:375px) {
+    .card-main {
+        display: flex;
+        background-color: white;
+        align-items: center;
+        width: unset ;
+        padding-left: 0% ;
+        padding-right: 0% ;
+        position: absolute;
+        top: 72%;
+        left: 17%; 
+        right: 17%;
+        bottom: 0%;  
+    }
+    .box {
+        width: 240px;
+        height: 100px;
+    }
+    .cards {
+       display: flex;
+       width: 80px;
+       height: 100px;
+       align-items: center;
+       border: none;
+    }
+    .card-body {
+        padding: 0px !important;
+    }
+    .card-text {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 140px;
+        height: 100px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 0px 0px 30px 0px;
+        margin-top: 85px;
+    }
+    .get-started-p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 10px 0;
+      width:150px;
+      height: 40px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 20px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+}
+@media screen and (max-width:320px) {
+    .vid-h1 {
+        font-size: 22px;
+        color: #e74c3c;
+    }
+    .vid-p4 {
+        font-size: 14px;
+        color: black;
+    }
+    .video-text-row {
+        padding: 70px 0px 10px 0px;
+        text-align: center;
+    }
+    .video-main {
+        position: relative;
+        padding-bottom:30px 0px 80px 0px;
+    }
+    .rectangle {
+        width: 120px;
+        height: 80px;
+        margin-left: -35px;
+    }
+    .video-div {
+        position: absolute;
+        left: 0%;
+        top:10%;
+    }
+    .get-started-main {
+        background-color: #e74c3c;
+        padding: 0px 0px 30px 0px;
+        margin-top: 85px;
+    }
+    .get-started-p {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 0px;
+    }
+    .get-started-btn
+    {
+      display: block;
+      margin: 10px 0;
+      width:150px;
+      height: 40px;
+      border: none;
+      background-color: #00a8ff;
+      color: #e74c3c;
+      font-size: 20px !important;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+      transition: .3s linear;
+    }
+    .accordion-sect {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .accordion-para {
+        font-size: 17px;
+        color: black;
+        margin-left: 30px;
+        text-align: start;
+    }
+    .accord-i {
+        color: black;
+        font-size: 30px;
+    }
+    .accord-font {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .col-elemnt {
+        padding: 25px 0px 25px 0px;
+    }
+    .fitness-h2 {
+        margin-top: 40px;
+        margin-bottom: 65px;
+        color: white;
+        font-size: 34px;
+    }
+    .fitness-h6 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 20px;
+        color: white;
+    }
+    .h5-col {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .shape-h1 {
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+    }
+    .shape-para {
+        font-size: 12px;
+        color: white;
+    }
+    .shape-h6 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 80px;
+        color: white;
+    }
+
+    .step-h1 {
+        font-size: 30px;
+    }
+    .step-h6 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .step-para {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .card-main {
+        display: flex;
+        background-color: white;
+        align-items: center;
+        width: unset ;
+        padding-left: 0% ;
+        padding-right: 0% ;
+        position: absolute;
+        top: 72%;
+        left: 13%; 
+        right: 13%;
+        bottom: 0%;  
+    }
+    .box {
+        width: 240px;
+        height: 100px;
+    }
+    .cards {
+       display: flex;
+       width: 80px;
+       height: 100px;
+       align-items: center;
+       border: none;
+    }
+    .card-body {
+        padding: 0px !important;
+    }
+    .card-text {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .btn-link {
+        font-size: 8px !important;
+        padding: 0px !important;
+        margin-bottom: 30px;
+       
+    }  
+}
+
